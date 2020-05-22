@@ -21,7 +21,7 @@ Once we have the function, we simply need to pass the all the co-ordinate values
 
 Shows training, prediction and error evolution with time
 
-[Video 1-3 sec]("Figures/flow.gif")
+![]("Figures/flow.gif")
 
 ## Data Plots
 As it can be seen, the data collected is neither continuous in co-ordinate scales nor in time steps. The total number of data-points we have are over **9.6 million** spread out evenly between **500 time slices. (0.01sec/slice)**.
