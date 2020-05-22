@@ -3,8 +3,8 @@
 Combining domains of **Computational Fluid Dynamics** and **Machine Learning**. Our aim is to help the community of chaos modelling and CFD in reducing the need for high-end computations and accurate and bulky data collection during experiments.
 
 <p align="center">
-    <img src="random_images/airfoil-1.jpg" width="500" align="left" style= "margin: 1px 2px">
-    <img src="random_images/dl.png" width="400" align="right" style= "margin: 1px 2px">
+    <img src="random_images/airfoil-1.jpg" width="50%" style= "margin: 1px 2px">
+    <img src="random_images/dl.png" width="40%" style= "margin: 1px 2px">
 </p>
 
 
@@ -20,7 +20,8 @@ Once we have the function, we simply need to pass the all the co-ordinate values
 ## Video
 
 Shows training, prediction and error evolution with time
-<video src="Figures/flow.mp4" controls>
+
+[Video 1-3 sec]("Figures/flow.gif")
 
 ## Data Plots
 As it can be seen, the data collected is neither continuous in co-ordinate scales nor in time steps. The total number of data-points we have are over **9.6 million** spread out evenly between **500 time slices. (0.01sec/slice)**.
@@ -41,14 +42,14 @@ The co-ordinate selection is selectively random according to following rule:
 
 
 <p float="left">
-    <img align=left src="Figures/plot3d_show.png" alt="space-time data plot" width="400">
-    <img align=left src="Figures/data_2_sec.png" alt="data-points at time: 3.5 sec" width="500">
+    <img src="Figures/plot3d_show.png" alt="space-time data plot" width="40%">
+    <img src="Figures/data_2_sec.png" alt="data-points at time: 3.5 sec" width="50%">
 </p>
 
 ## Loss function = Mean Squared Error (MSE) + Navier_loss
 
 ### Navier loss
-<img src="random_images/navier-loss.png" align="left" width="400"/>
+<img src="random_images/navier-loss.png" width="40%"/>
 
 ## Model Architechture
 
